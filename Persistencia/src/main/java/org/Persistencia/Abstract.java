@@ -6,12 +6,18 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 import java.util.ServiceLoader;
+<<<<<<< HEAD
 //import java.io.Console;
 
 public abstract class Abstract {
 	
 	//private Console console;
 	
+=======
+
+public abstract class Abstract {
+	
+>>>>>>> a2f3759e12b710ebf4df6c9d1077eacb574e90d0
 	private final ThreadLocal<Connection> THREAD_CONNECTION = new ThreadLocal<Connection>();
 	private final Properties propiedades;
 	// Tipo de motor
@@ -42,6 +48,7 @@ public abstract class Abstract {
 			base = propiedades.getProperty("jdbc.base");
 			user = propiedades.getProperty("jdbc.user");
 			password = propiedades.getProperty("jdbc.password");
+<<<<<<< HEAD
 			//if(MOTOR == null)
 			//{
 				//console.printf("No anda");
@@ -51,6 +58,8 @@ public abstract class Abstract {
 				//console.printf(MOTOR);	
 			//}
 			
+=======
+>>>>>>> a2f3759e12b710ebf4df6c9d1077eacb574e90d0
 		} catch (IOException ex) {
 			throw new RuntimeException(
 					"Falló lectura de archivo de configuracion", ex);
@@ -122,9 +131,12 @@ public abstract class Abstract {
 	protected abstract String getDriver();
 
 	protected abstract String getMotor();
+<<<<<<< HEAD
 	
 	/* Repositorios */
 	public abstract IRepo_CtaCte getRepo_CtaCte() 
 			throws RepositorioException;
+=======
+>>>>>>> a2f3759e12b710ebf4df6c9d1077eacb574e90d0
 
 }

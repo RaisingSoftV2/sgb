@@ -10,7 +10,10 @@
   <modules>
     <module>Dominio</module>
     <module>Persistencia</module>
+<<<<<<< HEAD
     <module>Servicios</module>
     <module>ui</module>
+=======
+>>>>>>> a2f3759e12b710ebf4df6c9d1077eacb574e90d0
   </modules>
 </project>

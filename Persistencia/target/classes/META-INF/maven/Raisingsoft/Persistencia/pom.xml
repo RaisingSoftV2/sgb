@@ -7,7 +7,13 @@
     <groupId>Raisingsoft</groupId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
+<<<<<<< HEAD
   <artifactId>Persistencia</artifactId>
+=======
+  <groupId>Raisingsoft</groupId>
+  <artifactId>Persistencia</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+>>>>>>> a2f3759e12b710ebf4df6c9d1077eacb574e90d0
   <name>Persistencia</name>
   <url>http://maven.apache.org</url>
   <properties>

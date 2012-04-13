@@ -1,5 +1,6 @@
 package org.PostreSql;
 
+<<<<<<< HEAD
 import org.Persistencia.Abstract;
 import org.Persistencia.IRepo_CtaCte;
 import org.Persistencia.RepositorioException;
@@ -40,3 +41,16 @@ public final class PostgreSqlDB extends Abstract {
 	}
 }
 
+=======
+import java.sql.Connection;
+
+import org.Dominio.Banco;
+import org.Persistencia.RepositorioException;
+import org.Persistencia.IRepo_CtaCte;
+
+
+public class PostgreSqlDB implements IRepo_CtaCte {
+	private Connection connection;
+
+}
+>>>>>>> a2f3759e12b710ebf4df6c9d1077eacb574e90d0
